@@ -99,7 +99,7 @@ export function LoginForm() {
         <button
           type="submit"
           disabled={isLoading}
-          className="mt-1 flex w-full justify-center rounded-lg border border-transparent bg-primary px-4 py-2.5 text-sm font-medium text-on-primary shadow-sm hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-opacity disabled:opacity-50 cursor-pointer"
+          className="mt-1 flex w-full justify-center rounded-lg bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white font-medium px-4 py-2.5 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-all duration-200 disabled:opacity-50 cursor-pointer"
         >
           {isLoading ? (
             <span className="flex items-center gap-2">
